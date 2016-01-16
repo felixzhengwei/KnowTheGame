@@ -1,0 +1,114 @@
+body{
+	background-color:#005200;
+	background:url(../images/main_background.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.overlay{
+	position:fixed;
+	background-color:#4C4C4C;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:2000;
+	background:url(../images/stock_background.jpeg);
+	background-size: cover;
+	background-position: center center;
+	/*display:none;*/
+}
+
+.overlay p{
+	margin: 0;
+    color:#fff;
+    position: absolute;
+    display:none;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size:8em;
+}
+
+.relative{
+	position: relative;
+}
+
+.input-form{
+	position:relative;
+	height:100px;
+}
+
+.input-wrapper{
+	position: relative;
+}
+
+#index-value{
+	width:20%;
+	height:20%;
+	padding:10px;
+	border:none;
+}
+
+#end-date, #end-price{
+	width:40%;
+	height:20%;
+	padding:10px;
+	border:none;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  background-color: #F5FFE0;
+  box-shadow: 0 0 5px 1px #fff;
+}
+
+#info-form{
+	position: relative;
+}
+
+.input-fields{
+	text-align: center;
+}
+
+.input-fields p{
+	font-size: 3em;
+	color:#fff;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.title-wrapper{
+	text-align: center;
+}
+
+.title-wrapper p{
+	margin-top: 6%;
+	font-size: 6em;
+	color:#fff;
+	font-family: 'Exo 2', sans-serif;
+}
+
+#submit-button, #index-button{
+	padding:15px;
+	background-color: #000;
+	color: #fff;
+	border:none;
+	font-family: 'Exo 2', sans-serif;
+}
+
+#submit-button{
+	margin-bottom: 10px; 
+}
+
+#submit-button:focus{
+	background-color:#4c4c4c;
+	border: none;
+	outline:none;
+}
+
+#submit-button:hover{
+	background-color:#4c4c4c;
+}
+
+
