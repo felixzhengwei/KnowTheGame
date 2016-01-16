@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import json
 
 
-app = Flask("price_alert")
+app = Flask("know_the_game")
 
 @app.route("/")
 def index():
